@@ -22,19 +22,19 @@
 - 🌱 Continuously learning new technologies and improving my problem-solving skills
 - 🤝 Open to collaborating on innovative projects and learning opportunities
 
-## 🛠️ Languages & Technologies
+##  Languages & Technologies
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,c,java,html,css,js,django,mysql&perline=8" alt="Python, C, Java, HTML5, CSS3, JavaScript, Django, MySQL" />
 </p>
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <p align="center">
   <img src="./assets/github-stats.svg" width="560" alt="GitHub statistics for nithesh2711: commits, pull requests, issues, stars, streaks and top languages" />
 </p>
 
-## 🎮 Contribution Arcade
+##  Contribution Arcade
 
 <p align="center">
   <img src="./assets/flappy-contributions.svg" width="100%" alt="Pixel-art bird flying through green pipes over my GitHub contribution graph" />
@@ -42,7 +42,7 @@
 
 <p align="center"><sub><i>A tiny bird flaps through my real contribution graph. Regenerated automatically twice a day.</i></sub></p>
 
-## 🌐 Connect With Me
+##  Connect With Me
 
 <p align="center">
   <a href="https://linkedin.com/in/nitheshvinod" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin" height="44" alt="LinkedIn" /></a>
