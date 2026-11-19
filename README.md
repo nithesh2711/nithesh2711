@@ -14,7 +14,7 @@
 
 </div>
 
-## 🧑‍💻 About Me
+##  About Me
 
 - 🎓 Pursuing **B.E. in Computer Science and Engineering** at **Gopalan College of Engineering and Management**
 - 💡 Interested in **Software Development**, **Web Development**, and **Computer Networking**
