@@ -1,0 +1,45 @@
+name: Generate Flappy Contribution Game
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"      # twice a day
+  workflow_dispatch:              # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/flappy.yml"
+
+permissions:
+  contents: write                 # lets the workflow commit the regenerated SVG
+
+concurrency:
+  group: flappy
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Generate animation and stats card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # built-in token, nothing to configure
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          python3 scripts/generate_flappy.py --source graphql --out assets/flappy-contributions.svg
+          python3 scripts/generate_stats.py --source graphql --out assets/github-stats.svg
+
+      - name: Commit the updated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/flappy-contributions.svg assets/github-stats.svg
+          if git diff --cached --quiet; then
+            echo "Assets unchanged - nothing to commit."
+          else
+            git commit -m "chore: update flappy contribution animation"
+            git push
+          fi

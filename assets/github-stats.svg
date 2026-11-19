@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 244" width="560" height="244" role="img" aria-label="GitHub statistics for nithesh2711">
+<title>GitHub statistics for nithesh2711</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#150d26"/></linearGradient></defs>
+<rect width="560" height="244" rx="14" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="559" height="243" rx="14" fill="none" stroke="#30363d"/>
+<g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+<text x="24" y="30" fill="#a371f7" font-size="13" font-weight="700" letter-spacing="3">GITHUB STATS</text>
+<text x="536" y="30" fill="#6e7681" font-size="12" text-anchor="end">@nithesh2711</text>
+<text x="24" y="70" fill="#8b949e" font-size="13">Commits (past year)</text><text x="256" y="70" fill="#39d353" font-size="15" font-weight="700" text-anchor="end">–</text><text x="24" y="94" fill="#8b949e" font-size="13">Pull requests</text><text x="256" y="94" fill="#39d353" font-size="15" font-weight="700" text-anchor="end">–</text><text x="24" y="118" fill="#8b949e" font-size="13">Issues</text><text x="256" y="118" fill="#39d353" font-size="15" font-weight="700" text-anchor="end">–</text><text x="24" y="142" fill="#8b949e" font-size="13">Stars earned</text><text x="256" y="142" fill="#39d353" font-size="15" font-weight="700" text-anchor="end">–</text><text x="24" y="166" fill="#8b949e" font-size="13">Public repos</text><text x="256" y="166" fill="#39d353" font-size="15" font-weight="700" text-anchor="end">–</text><text x="320" y="66" fill="#39d353" font-size="24" font-weight="700">–</text><text x="320" y="82" fill="#8b949e" font-size="10" letter-spacing="1">TOTAL (PAST YEAR)</text><text x="320" y="108" fill="#f778ba" font-size="24" font-weight="700">–</text><text x="320" y="124" fill="#8b949e" font-size="10" letter-spacing="1">CURRENT STREAK</text><text x="320" y="150" fill="#a371f7" font-size="24" font-weight="700">–</text><text x="320" y="166" fill="#8b949e" font-size="10" letter-spacing="1">LONGEST (PAST YEAR)</text><line x1="288" y1="48" x2="288" y2="168" stroke="#30363d"/><text x="24" y="190" fill="#a371f7" font-size="11" font-weight="700" letter-spacing="2">TOP LANGUAGES</text><text x="24" y="222" fill="#6e7681" font-size="12">Waiting for the first workflow run…</text>
+</g>
+</svg>
